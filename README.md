@@ -3,7 +3,7 @@
 
 pre-visualizar 
 
-https://rawgit.com/AlbertoReal/Lunar-lander-con-java/master/index.html
+https://rawgit.com/AlbertoReal/Lunar-lander-con-java/minified/index.html
 
 Versión final de lunar landing
 
