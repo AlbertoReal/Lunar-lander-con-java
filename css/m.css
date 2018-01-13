@@ -1,0 +1,320 @@
+body,html{
+	height:100%;
+	padding:0px;
+	margin:0px;
+}
+body{
+	background-image: url("../img/fondo_estrellado.jpg");
+}
+.a{width:100%;height:90px;overflow:hidden;position:fixed;top:0px;z-index:-1;}
+.b{width:100%;height:100%;overflow:hidden;z-index:-1;}
+.c{position:fixed;top:0px;bottom:0px;left:90%;right:0px;}
+#nave{text-align:center;position:fixed;top:10%;width:100%;height:20%;z-index:-1;}
+#nave img{height:100%;z-index:-1;}
+#cpanel{}
+#hidem,#showm{display: none;}
+}
+.main{
+	text-align: left;
+	padding-top: 25px;
+	display:inline-block;
+	width:80%;
+	height: 25%;
+	z-index:-1;
+}
+.panel{
+	width: 40%;
+	height: 20%;
+	border-radius: 10%;
+	background-color: yellow;
+}
+#panel_a
+{
+	padding-bottom: 0px;
+	border-bottom: 1px solid;
+	height: 20%;
+}
+#panel_b
+{
+	padding-bottom: 0px;
+	height:25%;
+	border-bottom: 1px solid;
+}
+#panel_c
+{
+	padding-bottom: 0px;
+	height:25%;
+	border-bottom: 1px solid;
+}
+#tierra{
+	display: none;
+	margin-left:-10%;
+	width: 100%;
+	z-index: -10;
+}
+#tierra2{
+	float:left;
+	padding-top: 25px;
+}
+#luna{
+	position: fixed;
+	height: 18%;
+	width: 50%;
+	bottom:0;
+	left: 25%;
+	right: 0;
+	margin-bottom: 0;
+}
+#panel_d{
+	display: none;
+	float:right;
+	display: block;
+	padding-right: 2%;
+	padding-top: 2%;
+	z-index: -10;
+}
+#panel_e{
+	display: none;
+	float:right;
+	display: block;
+	padding-right: 2%;
+	padding-top: 2%;
+	z-index: -10;
+}
+#panel_f{
+	display: none;
+	float:right;
+	display: block;
+	padding-right: 2%;
+	padding-top: 2%;
+	z-index: -10;
+}
+#boton{
+	padding-top: 12%;
+	padding-left: 6%;
+
+}
+#boton_img{
+	width: 60px;
+	height: 60px;	
+}
+.botones{
+	width: 60px;
+	height: 60px;
+}
+#victory {
+	color:white;
+	display:none;
+}
+button {
+	background-repeat:no-repeat;
+	border: none;
+	cursor:pointer;
+	overflow: hidden;
+	background-color: Transparent;
+	outline:none;
+}
+.menu{
+  display:none;
+  margin-left:25% ;
+  margin-right: 15%;
+  width: 50%;
+  height: 60%;
+  text-align:center;
+  color:yellow;
+  border:solid 8px;
+  border-color:red;
+  background-color: yellow;
+  z-index: 10;
+}
+
+#info{
+	border-radius:25%;
+  margin-top:25px;
+  margin-left:5%;
+  background-color:#4BCFED;;
+  width:90%;
+  border:solid 2px;
+  border-color:red;
+  }
+#info:hover{
+	background-color: red;
+	border-color:#4BCFED;
+}
+.facil{
+	border-radius:25%;
+  margin-top:25px;
+  margin-left:5%;
+  background-color:#4BCFED;;
+  width:90%;
+  border:solid 2px;
+  border-color:red;
+  }
+.facil:hover{
+	background-color: red;
+	border-color:#4BCFED;
+}
+.normal{
+	border-radius:25%;
+  margin-top:25px;
+  margin-left:5%;
+  background-color:#4BCFED;;
+  width:90%;
+  border:solid 2px;
+  border-color:red;
+  }
+.normal:hover{
+	background-color: red;
+	border-color:#4BCFED;
+}
+.dificil{
+	border-radius:25%;
+  margin-top:25px;
+  margin-left:5%;
+  background-color:#4BCFED;;
+  width:90%;
+  border:solid 2px;
+  border-color:red;
+  }
+  .dificil:hover{
+	background-color: red;
+	border-color:#4BCFED;
+}
+#boton4{
+	border-radius:25%;
+  margin-top:25px;
+  margin-left:5%;
+  background-color:#4BCFED;;
+  width:90%;
+  border:solid 2px;
+  border-color:red;
+  }
+#boton4:hover{
+	background-color: red;
+	border-color:#4BCFED;
+}
+#reset{
+	border-radius:25%;
+  margin-top:25px;
+  margin-left:5%;
+  background-color:#4BCFED;;
+  width:90%;
+  border:solid 2px;
+  border-color:red;
+  }
+#reset:hover{
+	background-color: red;
+	border-color:#4BCFED;
+}
+a{
+	text-decoration: none;
+}
+.condicion1{
+  margin-left: 25%;
+  margin-right: 15%;
+  width: 40%;
+  height: 40%;
+  display:none;
+  border:solid 8px;
+  border-color:red;
+  background-color: yellow;
+}
+  .condicion2{
+  margin-left: 25%;
+  margin-right: 15%;
+  width: 40%;
+  height: 40%;
+  display:none;
+  border:solid 8px;
+  border-color:red;
+  background-color: yellow;
+}
+#reset3{
+	border-radius:25%;
+  margin-top:25px;
+  margin-left:5%;
+  background-color:#4BCFED;;
+  width:90%;
+  border:solid 2px;
+  border-color:red;
+  }
+#reset3:hover{
+	background-color: red;
+	border-color:#4BCFED;
+}
+#reset4{
+	border-radius:25%;
+  margin-top:25px;
+  margin-left:5%;
+  background-color:#4BCFED;;
+  width:90%;
+  border:solid 2px;
+  border-color:red;
+  }
+#reset4:hover{
+	background-color: red;
+	border-color:#4BCFED;
+}
+#reset5{
+  border-radius:25%;
+  margin-top:25px;
+  margin-left:5%;
+  background-color:#4BCFED;;
+  width:90%;
+  border:solid 2px;
+  border-color:red;
+  }
+#reset5:hover{
+  background-color: red;
+  border-color:#4BCFED;
+}
+#about{
+	border-radius:25%;
+  margin-top:25px;
+  background-color:#4BCFED;;
+  width:90%;
+  border:solid 2px;
+  border-color:red;
+  }
+#about:hover{
+	background-color: red;
+	border-color:#4BCFED;
+}
+#extra{
+  margin-left: 25%;
+  margin-right: 15%;
+  width: 60%;
+  height: 54%;
+  text-align:center;
+  color:yellow;
+  border:solid 8px;
+  border-color:red;
+  background-color: yellow;
+  z-index: 10;
+  color:blue;
+}
+#reset2{
+	display: none;
+}
+#info2{
+	display:none;
+}
+#boton2{
+	bottom: 0;
+	float:right;
+}
+#proyecto{
+  display: none;
+  margin-left: 25%;
+  margin-right: 15%;
+  width: 50%;
+  height: 40%;
+  text-align:center;
+  color:yellow;
+  border:solid 8px;
+  border-color:red;
+  background-color: yellow;
+  z-index: 10;
+  color:blue;
+  font-size: 20px;
+}
