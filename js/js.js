@@ -143,19 +143,27 @@ function stop(){
 }
 
 function moverNave(){
+	if(y>=0){
 	//cambiar velocidad y posicion
-	v +=a*dt;
-	document.getElementById("velocidad").innerHTML=v.toFixed(2);
-	y +=v*dt;
-	document.getElementById("altura").innerHTML=y.toFixed(2);
-	//actualizar marcadores
+		v +=a*dt;
+		document.getElementById("velocidad").innerHTML=v.toFixed(2);
+		y +=v*dt;
+		document.getElementById("altura").innerHTML=y.toFixed(2);
+		//actualizar marcadores
 	
 	
 	//mover hasta que top sea un 70% de la pantalla
-	if (y<63){ 
+		if (y<63){ 
 		document.getElementById("nave").style.top = y+"%"; 
-	} else { 
+		} else { 
 		stop();
+		}
+	//tope superior apagar motor y parar nave en seco
+	}else{
+		y=0;
+		v=0;
+		if(a==-g);
+		motorOff();
 	}
 }
 function motorOn(){
